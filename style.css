@@ -1,0 +1,70 @@
+
+body{
+    background-image: url(./img/Logo5.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor_indice{
+
+    display: flex;
+    justify-content: left;
+}
+
+.logo_indice{
+    height: 45px;
+}
+
+.txt{
+    margin-left: 10px;
+    color: rgba(247, 243, 17, 0.507);
+}
+
+.menu{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica;
+}
+
+ul, ol{
+    list-style: none;
+
+}
+
+.nav li a{
+    
+    background-color: rgba(218, 218, 14, 0.678);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+
+}
+
+.nav li a:hover{
+    background-color: #bbbbbb;
+}
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
